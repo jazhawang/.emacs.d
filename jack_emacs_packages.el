@@ -7,8 +7,7 @@
 (setq package-archives
       '(("elpa" . "http://tromey.com/elpa/")
         ("melpa" . "http://melpa.org/packages/")
-        ("gnu" . "http://elpa.gnu.org/packages/")
-        ("marmalade" . "http://marmalade-repo.org/packages/")))
+        ("gnu" . "http://elpa.gnu.org/packages/")))
 
 (package-initialize)
 
@@ -35,6 +34,7 @@
     docker
     dockerfile-mode
     gruvbox-theme
+    yaml-mode
     )
   "A list of required packages. Will be either installed or updated at launch")
 

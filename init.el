@@ -80,7 +80,7 @@
 
 
 
-(load-theme 'solarized-light t)
+(load-theme 'gruvbox-dark-medium t)
 ;;(add-hook 'text-mode-hook 'jack-mode)
 
 (jack-mode)
@@ -102,7 +102,7 @@
  '(debug-on-error t)
  '(package-selected-packages
    (quote
-    (xterm-keybinder gruvbox-theme markdown-mode treemacs zoom docker-api docker chess latex-pretty-symbols typescript javascript multiple-cursors aggressive-indent which-key helm rainbow-delimiters smart-mode-line solarized-theme yasnippet fancy-narrow anzu ace-window smex smartparens avy))))
+    (yaml-mode xterm-keybinder gruvbox-theme markdown-mode treemacs zoom docker-api docker chess latex-pretty-symbols typescript javascript multiple-cursors aggressive-indent which-key helm rainbow-delimiters smart-mode-line solarized-theme yasnippet fancy-narrow anzu ace-window smex smartparens avy))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
